@@ -5,7 +5,7 @@ export const CreateVendor=async (req:Request,res:Response,next:NextFunction)=>{
 }
 
 
-export const GevVendors=async (req:Request,res:Response,next:NextFunction)=>{
+export const GetVendors=async (req:Request, res:Response, next:NextFunction)=>{
 
 }
 

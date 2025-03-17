@@ -1,5 +1,5 @@
 import express, {Request, Response, NextFunction} from 'express';
-import {CreateVendor, GetVendorById, GevVendors} from "../controllers";
+import {CreateVendor, GetVendorById, GetVendors} from "../controllers";
 
 
 const router = express.Router();
@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.post('/vendor',CreateVendor);
 
-router.post('/vendors',GevVendors);
+router.post('/vendors',GetVendors);
 
 router.post('/vendor/:id',GetVendorById);
 
